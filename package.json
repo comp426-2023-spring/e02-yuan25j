@@ -1,5 +1,5 @@
 {
-  "name": "COMP426FinalAssignment",
+  "name": "comp426finalassignment",
   "version": "1.0.0",
   "description": "RPS + RPSLS.",
   "main": "server.js",
