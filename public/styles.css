@@ -1,8 +1,38 @@
 body {
+    background-color: rgb(92, 134, 126);
 }
 
-h1 {
+
+p.results {
+    font-size: 16px; /* Same as "font-size: larger" */
+    font-weight: 500; /* Same as "font-weight: 500" */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Same as "font-family" */
+    border-style: groove; /* Same as "border-style: groove" */
+    border-radius: 20px; /* Updated to 20px to match the button style */
+    border-width: 5px; /* Updated to 5px to match the button style */
+    border-color: blue; /* Same as "border-color: blue" */
+    padding: 10px; /* Added padding for better spacing */
+    margin: 10px 0; /* Added margin for better spacing */
 }
 
-p {
+img.shot {
+    width: 300px;
+}
+
+button {
+    background-color: #999999; /* Matte gray */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff7f; /* Light green */
 }
