@@ -12,7 +12,7 @@
                 <td>
                     <form id="input">
                         <h2>Select your game!</h2>
-                        <input type="radio" id="rps" name="gameType" value="rps" checked="checked" onclick="toggleShots()">
+                        <input type="radio" id="rps" name="gameType" value="rps" onclick="toggleShots()">
                         <label for="rps">Rock, Paper, Scissors!</label>
                         <input type="radio" id="rpsls" name="gameType" value="rpsls" onclick="toggleShots()">
                         <label for="rpsls">Rock, Paper, Scissors, Lizard, Spock!</label>
@@ -39,7 +39,6 @@
                     <button type="button" id="play" onclick="playGame()">Play</button>
                     <button type="button" id="startOver" onclick="startOver()">Start Over</button>
                     <button type="button" id="help" onclick="help()">Rules</button>
-            
                     <p id="results" class="results">Results</p>
                     <table>
                         <tbody>
