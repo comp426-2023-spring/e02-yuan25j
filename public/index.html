@@ -11,7 +11,6 @@
             <tr>
                 <td>
                     <form id="input">
-                        <button type="button" value="Submit" style="display:none">Test</button>
                         <h2>Select your game!</h2>
                         <input type="radio" id="rps" name="gameType" value="rps" onclick="toggleShots()">
                         <label for="rps">Rock, Paper, Scissors!</label>
@@ -35,6 +34,7 @@
                                 <label id="spockLab" class="rpslsShot">Spock</label>
                             </div>
                         </div>
+                        <button type="submit" style="display:none">Submit</button>
                     </form>
                     <button type="button" id="play" onclick="playGame()">Play</button>
                     <button type="button" id="startOver" onclick="startOver()">Start Over</button>
