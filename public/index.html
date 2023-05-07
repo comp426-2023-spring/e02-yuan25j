@@ -7,6 +7,7 @@
     </head>
     <body onload="onPageLoad()">
         <table>
+            <tbody>
             <tr>
                 <td>
                     <form id="input">
@@ -34,12 +35,12 @@
                             </div>
                         </div>
                     </form>
-                    <br/><br/>
                     <button type="button" id="play" onclick="playGame()">Play</button>
                     <button type="button" id="startOver" onclick="startOver()">Start Over</button>
                     <button type="button" id="help" onclick="help()">Rules</button>
                     <p id="results" class="results">Results</p>
                     <table>
+                        <tbody>
                         <tr>
                             <td>
                                 <h4 id="shotImgLab">You:</h4>
@@ -50,6 +51,7 @@
                                 <img src="img/rock.jpg" alt="image" id="oppShotImg" class="shot">
                             </td>
                         </tr>
+                    </tbody>
                     </table>
                 </td>
                 <td>
@@ -76,6 +78,7 @@
                         </div>
                 </td>
             </tr>
+        </tbody>
         </table>
    </body>
 </html>
